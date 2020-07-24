@@ -1,0 +1,33 @@
+{
+  "name": "bookrooom-server",
+  "version": "1.0.0",
+  "description": "hello world",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "start:ci": "node src/index.ts",
+    "lint": "eslint 'src/**/*.{ts,js}'",
+    "lint:fix": "eslint 'src/**/*.{ts,js}' --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "coleman",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.7.0",
+    "@typescript-eslint/parser": "^3.7.0",
+    "apollo-server": "^2.16.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "graphql": "^15.3.0",
+    "sequelize": "^6.3.3",
+    "sqlite3": "^5.0.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "eslint-plugin-graphql": "^4.0.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  }
+}
