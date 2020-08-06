@@ -1,0 +1,69 @@
+.NavbarItems {
+  background: linear-gradient(
+    90deg,
+    rgb(228, 131, 21) 100%,
+    rgb(228, 131, 21) 100%
+  );
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 20px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+}
+
+.nav-links-signup {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  background-color: lightsteelblue;
+}
+
+.nav-links:hover {
+  background-color: lightsteelblue;
+  border-radius: 4px;
+  transition: all 0.8s ease-out;
+}
+
+.nav-links-signup:hover {
+  color: lightsteelblue;
+  background-color: #ffffff;
+  border-radius: 4px;
+  transition: all 0.8s ease-out;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.fa-react {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
